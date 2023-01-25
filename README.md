@@ -1,4 +1,6 @@
 # Comp2013_Coursework  
+
+### It's a student project
 ## Author Information  
 * Name: Yunchi Zhao
 * Email: scyyz17@nottingham.ac.uk
@@ -10,12 +12,11 @@
     - Creative score calculation.
 
 ## How to install and run the project
-1. Open the YunchiZhao_18.zip file.
-2. Go to YunchiZhao_18.  
-3. There is 2 ways to run this project.
+ 
+* There is 2 ways to run this project.
     - Run the class Start_controller in Intellj.
     - Use "mvn clean javafx:run" to run at command line.
-4. The game screen will show up.
+
 
 ## How to play the game
 1. click Start button.  
