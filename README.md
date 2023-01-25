@@ -1,7 +1,6 @@
 # Comp2013_Coursework  
-## Student Information  
+## Author Information  
 * Name: Yunchi Zhao
-* ID: 20320452
 * Email: scyyz17@nottingham.ac.uk
 
 ## Project Description
