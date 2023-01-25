@@ -1,0 +1,33 @@
+.button{
+    -fx-background-insets:5;
+    -fx-background-color: transparent;
+}
+#button_setting {
+    -fx-background-image: url(food-apple.png);
+}
+
+#button_setting:hover {
+    -fx-background-image: url(food-kiwi.png);
+}
+
+#button_setting:pressed {
+    -fx-background-image: url(food-apple.png);
+}
+
+#button_quit {
+    -fx-background-image: url(food-peach.png);
+}
+
+
+#button_quit:hover {
+    -fx-background-image: url(food-lemon.png);
+}
+
+#button_quit:pressed {
+    -fx-background-image: url(food-peach.png);
+}
+
+.Text{
+    -fx-background-color: transparent;
+    -fx-text-fill: green;
+}

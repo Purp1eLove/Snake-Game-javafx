@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="560.0" prefWidth="870.0" stylesheets="@../CSS/Setting.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controller.Setting_controller">
+   <children>
+      <ImageView fitHeight="560.0" fitWidth="870.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../1629702755362_84a39ede3284dfcaa71703c98647a8f5.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Start" layoutX="481.0" layoutY="443.0" mnemonicParsing="false" onAction="#ToGame" prefHeight="57.0" prefWidth="108.0" text="Start" textAlignment="CENTER" textFill="#227c29">
+         <font>
+            <Font name="Kristen ITC" size="26.0" />
+         </font></Button>
+      <ImageView fx:id="sky" fitHeight="150.0" fitWidth="200.0" layoutX="335.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../UI-background.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fruits" fitHeight="150.0" fitWidth="200.0" layoutX="630.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../UI-background2.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="Name" layoutX="276.0" layoutY="457.0" onAction="#get_Name" prefHeight="38.0" prefWidth="185.0" promptText="Your Name" />
+      <Text fill="#227c29" layoutX="80.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="background:">
+         <font>
+            <Font name="Kristen ITC" size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#227c29" layoutX="119.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Level:">
+         <font>
+            <Font name="Kristen ITC" size="28.0" />
+         </font>
+      </Text>
+      <Slider fx:id="mySpeed" blockIncrement="1.0" layoutX="240.0" layoutY="266.0" majorTickUnit="1.0" max="3.0" min="1.0" minorTickCount="5" prefHeight="38.0" prefWidth="263.0" showTickLabels="true" showTickMarks="true" value="2.0" />
+      <Label fx:id="myspeed" layoutX="522.0" layoutY="257.0" text="Normal" textFill="#227c29">
+         <font>
+            <Font name="Kristen ITC" size="28.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="radio1" layoutX="285.0" layoutY="121.0" mnemonicParsing="false" onAction="#Get_bg" prefHeight="60.0" prefWidth="108.0" selected="true">
+         <font>
+            <Font size="32.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="bg" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="radio2" layoutX="576.0" layoutY="121.0" mnemonicParsing="false" onAction="#Get_bg" prefHeight="60.0" prefWidth="108.0" toggleGroup="$bg">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="ifName" layoutX="219.0" layoutY="397.0" prefHeight="46.0" prefWidth="349.0" textFill="#227c29">
+         <font>
+            <Font name="Kristen ITC" size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="help" layoutX="35.0" layoutY="25.0" mnemonicParsing="false" onAction="#gotoIntroduction1" prefHeight="57.0" prefWidth="108.0" text="Help" textAlignment="CENTER" textFill="#c73494">
+         <font>
+            <Font name="Kristen ITC" size="25.0" />
+         </font>
+      </Button>
+      <RadioButton fx:id="snake1" layoutX="285.0" layoutY="347.0" mnemonicParsing="false" onAction="#Get_snake" prefHeight="60.0" prefWidth="108.0" selected="true">
+         <font>
+            <Font size="32.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="snake" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="snake2" layoutX="449.0" layoutY="347.0" mnemonicParsing="false" onAction="#Get_snake" prefHeight="60.0" prefWidth="108.0" toggleGroup="$snake">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </RadioButton>
+      <Text fill="#227c29" layoutX="119.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Snake:">
+         <font>
+            <Font name="Kristen ITC" size="28.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="32.0" fitWidth="31.0" layoutX="378.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../snake-head-right.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="31.0" layoutX="347.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../snake-body.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="31.0" layoutX="551.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../blue-head-right.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="31.0" layoutX="520.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../blue-body.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

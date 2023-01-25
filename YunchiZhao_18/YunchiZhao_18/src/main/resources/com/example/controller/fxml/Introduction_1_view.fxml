@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="560.0" prefWidth="870.0" stylesheets="@../CSS/Setting.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controller.Introduction1_controller">
+   <children>
+      <ImageView fitHeight="560.0" fitWidth="870.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../1629702755362_84a39ede3284dfcaa71703c98647a8f5.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="Title" fill="#47198a" layoutX="301.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Basic Rules" wrappingWidth="267.240234375">
+         <font>
+            <Font name="Kristen ITC" size="48.0" />
+         </font>
+      </Text>
+      <Text fx:id="basic_1" fill="#338a18" layoutX="42.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Snake want to eat fruits!!!!">
+         <font>
+            <Font name="Kristen ITC" size="40.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="32.0" fitWidth="55.0" layoutX="58.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../food-apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="55.0" layoutX="113.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../food-banana.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="55.0" layoutX="186.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../food-cherry.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="55.0" layoutX="253.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../food-lemon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="55.0" layoutX="330.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../food-strawberry.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="basic_11" fill="#c34978" layoutX="433.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eat faster, Eat more......">
+         <font>
+            <Font name="Kristen ITC" size="26.0" />
+         </font>
+      </Text>
+      <Text fx:id="basic_12" fill="#338a18" layoutX="113.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't Crash into Walls!!!!">
+         <font>
+            <Font name="Kristen ITC" size="40.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="32.0" fitWidth="55.0" layoutX="346.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../snake-head-right.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="55.0" layoutX="314.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../snake-body.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="55.0" layoutX="285.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../snake-body.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="55.0" layoutX="253.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../snake-body.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="55.0" layoutX="221.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../snake-body.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="55.0" layoutX="419.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../wall.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="basic_121" fill="#bc2828" layoutX="29.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If snake reaches the border, it will come out the other side">
+         <font>
+            <Font name="Kristen ITC" size="23.0" />
+         </font>
+      </Text>
+      <Button fx:id="next" layoutX="463.0" layoutY="468.0" mnemonicParsing="false" onAction="#gotoIntroduction2" prefHeight="57.0" prefWidth="108.0" text="Next" textAlignment="CENTER" textFill="#6c32c7">
+         <font>
+            <Font name="Kristen ITC" size="25.0" />
+         </font></Button>
+      <Button layoutX="386.0" layoutY="468.0" mnemonicParsing="false" stylesheets="@../CSS/Setting.css" text="1/3" textFill="#6c32c7">
+         <font>
+            <Font name="Kristen ITC" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="733.0" layoutY="29.0" mnemonicParsing="false" onAction="#gotoSetting" prefHeight="57.0" prefWidth="108.0" stylesheets="@../CSS/Setting.css" text="Back" textAlignment="CENTER" textFill="#c73494">
+         <font>
+            <Font name="Kristen ITC" size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

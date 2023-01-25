@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="560.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controller.Introduction2_controller">
+    <children>
+        <ImageView fitHeight="560.0" fitWidth="870.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../1629702755362_84a39ede3284dfcaa71703c98647a8f5.jpg" />
+            </image>
+        </ImageView>
+        <Text fx:id="Title" fill="#47198a" layoutX="301.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Control" textAlignment="CENTER" wrappingWidth="267.240234375">
+            <font>
+                <Font name="Kristen ITC" size="48.0" />
+            </font>
+        </Text>
+        <Text fx:id="basic_1" fill="#338a18" layoutX="78.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Move up: Arrow up" textAlignment="CENTER">
+            <font>
+                <Font name="Kristen ITC" size="30.0" />
+            </font>
+        </Text>
+        <Text fx:id="basic_121" fill="#bc2828" layoutX="78.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You can use SPACE to pause/start at any time">
+            <font>
+                <Font name="Kristen ITC" size="23.0" />
+            </font>
+        </Text>
+        <Button fx:id="next" layoutX="471.0" layoutY="468.0" mnemonicParsing="false" onAction="#gotoIntroduction3" prefHeight="57.0" prefWidth="108.0" stylesheets="@../CSS/Setting.css" text="Next" textFill="#6c32c7">
+            <font>
+                <Font name="Kristen ITC" size="25.0" />
+            </font></Button>
+        <Button layoutX="386.0" layoutY="468.0" mnemonicParsing="false" stylesheets="@../CSS/Setting.css" text="2/3" textFill="#6c32c7">
+            <font>
+                <Font name="Kristen ITC" size="25.0" />
+            </font>
+        </Button>
+      <Button fx:id="previous" layoutX="246.0" layoutY="468.0" mnemonicParsing="false" onAction="#gotoIntroduction1" prefHeight="59.0" prefWidth="140.0" stylesheets="@../CSS/Setting.css" text="Previous" textFill="#6c32c7">
+         <font>
+            <Font name="Kristen ITC" size="25.0" />
+         </font>
+      </Button>
+      <Text fx:id="basic_11" fill="#338a18" layoutX="78.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Move down: Arrow down" textAlignment="CENTER">
+         <font>
+            <Font name="Kristen ITC" size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="basic_111" fill="#338a18" layoutX="78.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Move left: Arrow left" textAlignment="CENTER">
+         <font>
+            <Font name="Kristen ITC" size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="basic_1111" fill="#338a18" layoutX="78.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Move right: Arrow right" textAlignment="CENTER">
+         <font>
+            <Font name="Kristen ITC" size="30.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="733.0" layoutY="29.0" mnemonicParsing="false" onAction="#gotoSetting" prefHeight="57.0" prefWidth="108.0" stylesheets="@../CSS/Setting.css" text="Back" textFill="#c73494">
+         <font>
+            <Font name="Kristen ITC" size="25.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

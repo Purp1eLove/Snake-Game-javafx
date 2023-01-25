@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="560.0" prefWidth="870.0" stylesheets="@../CSS/Score.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controller.Score_controller">
+   <children>
+      <ImageView fitHeight="560.0" fitWidth="870.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../wp3906260.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="play_again" layoutX="245.0" layoutY="431.0" mnemonicParsing="false" onAction="#ToStart" prefHeight="60.0" prefWidth="190.0" text="Play again" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Kristen ITC" size="26.0" />
+         </font>
+         <effect>
+            <DropShadow color="WHITE" height="255.0" radius="127.0" spread="0.6" width="255.0">
+               <input>
+                  <InnerShadow choke="0.6" height="60.0" radius="29.5" width="60.0">
+                     <input>
+                        <Reflection fraction="0.25" />
+                     </input>
+                  </InnerShadow>
+               </input>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button fx:id="quit" layoutX="493.0" layoutY="431.0" mnemonicParsing="false" onAction="#Quit" prefHeight="50.0" prefWidth="105.0" text="Quit" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Kristen ITC" size="26.0" />
+         </font>
+         <effect>
+            <DropShadow color="WHITE" height="255.0" radius="127.0" spread="0.6" width="255.0">
+               <input>
+                  <InnerShadow choke="0.6" height="60.0" radius="29.5" width="60.0" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Button>
+      <TreeTableView fx:id="table" layoutX="210.0" layoutY="84.0" prefHeight="276.0" prefWidth="450.0">
+        <columns>
+          <TreeTableColumn fx:id="Rank" prefWidth="75.0" text="Rank" />
+          <TreeTableColumn fx:id="Player" prefWidth="197.0" text="Player" />
+            <TreeTableColumn fx:id="Score" prefWidth="177.0" text="Score" />
+        </columns>
+      </TreeTableView>
+   </children>
+</AnchorPane>

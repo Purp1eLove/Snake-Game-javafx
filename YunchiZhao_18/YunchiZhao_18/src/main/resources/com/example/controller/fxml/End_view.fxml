@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="560.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controller.End_controller">
+   <children>
+      <ImageView fx:id="end" fitHeight="560.0" fitWidth="870.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../the_end.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="end_next" layoutX="302.0" layoutY="433.0" mnemonicParsing="false" onAction="#Gotoscore" prefHeight="120.0" prefWidth="266.0" stylesheets="@../CSS/Setting.css" text="NEXT" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="Eras Bold ITC" size="64.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

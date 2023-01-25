@@ -1,0 +1,30 @@
+.button {
+    -fx-cursor: hand;
+    -fx-background-color: #227c29;
+    -fx-background-radius: 50;
+}
+
+#button_setting:hover{
+    -fx-background-color: cyan;
+}
+
+.tree-table-row-cell {
+    -fx-background-color: linear-gradient(to left, cyan, magenta);
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+    -fx-text-fill: -fx-text-inner-color;
+}
+.tree-table-row-cell:selected {
+    -fx-background-color: -fx-focus-color, -fx-cell-focus-inner-border, -fx-focus-color;
+    -fx-background-insets: 0, 1, 2;
+}
+
+.tree-table-row-cell:odd {
+    -fx-background-color: -fx-table-cell-border-color, derive(-fx-control-inner-background,-5%);
+    -fx-background-insets: 0, 0 0 1 0;
+}
+
+.tree-table-row-cell:selected:odd {
+    -fx-background-color: -fx-focus-color, -fx-cell-focus-inner-border, -fx-focus-color;
+    -fx-background-insets: 0, 1, 2;
+}
